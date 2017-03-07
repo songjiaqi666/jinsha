@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*list 列表页样式 start*/
+
+/*面包线*/
+.brand{ line-height: 45px; height: 45px;}
+.brand a{ color: #000000;}
+.brand a:hover{ color:#c81623; }
+
+/*左侧栏目*/
+.list .listLeft{ float: left; width: 743px; border:1px solid #e5e5e5; min-height: 1135px;}
+
+/*温馨提示*/
+.hint{ padding: 10px; margin-top: 30px; background: #f5f5f5;}
+.dot{ margin-top: 70px;}
+.dot img{ margin: 0 auto;}
+
+/*页码*/
+.pages{ width: 680px; margin:20px auto 15px auto ;}
+.pages .ac{ background: #ffffff; }
+.pages .leng{width: 49px;}
+.pages li{ float: left; width: 29px; height: 29px; margin: 0 4px; background: #f2f2f2; border:1px solid #e5e5e5; line-height: 29px; text-align: center; cursor: pointer; }
+.pages li:nth-child(1){width: 49px;}
+.pages li:nth-child(2){width: 49px;}
+.pages ul li:last-child{min-width: 79px;}
+.pages ul li:last-child(2){min-width: 79px;}
+
+/*listCont 页面*/
+.list .listLeft .listCont{ padding:30px 20px;}
+.list .listLeft .listCont dl{ padding: 20px 0; border-bottom: 1px dotted #e5e5e5;}
+.list .listLeft .listCont dl dt{ float: left; margin-right: 14px; background: #ffffff; width: 143px; height: 84px; padding: 4px; box-shadow: 0 0 5px 2px #e0e0e0;}
+.list .listLeft .listCont dl dd{ line-height: 25px;}
+.list .listLeft .listCont dl dd i{ width: 14px; height: 14px; display: inline-block; margin-right: 5px; background: url(../img/tubiao.png) -108px -303px no-repeat;}
+.list .listLeft .listCont dl dd h3{ line-height: 14px; margin-bottom: 5px;}
+.list .listLeft .listCont dl dd a{ color:#9d6e07 ;}
+.list .listLeft .listCont dl dd span{color:#999999;}
+.list .listLeft .listCont dl dd span a{color:#999999;}
+
+/*-------------------------------------------------------------------------------------*/
+/*contant 详细页样式 start*/
+.list .listLeft .contantText{ padding: 30px 20px; line-height: 1.8em;}
+.list .listLeft .contantText p{ text-indent: 2em; margin-bottom: 30px;}
+.list .listLeft .contantText h3{ text-indent: 2em; margin-bottom: 5px;}
+.list .listLeft .contantText img{ margin: 0 auto 20px auto;}
+.list .listLeft .contantText .contTitle{ text-align: center;}
+.list .listLeft .contantText .contTitle a{ color: #9d6e07;}
+.list .listLeft .contantText .contTitle p{ line-height: 30px; color: #999999;}
+.list .listLeft .contantText .preface{ background: #f5f5f5; margin-top: 10px; border-top: 1px dotted #d3d3d3; border-bottom: 1px dotted #d3d3d3; line-height: 25px; padding:5px 10px; margin-bottom: 30px;}
+.list .listLeft .contantText .keyword{ padding: 15px 0 0px 0; border-bottom: 1px dotted #cecece;}
+.list .listLeft .contantText .keyword span:nth-child(1){ float: left; color: #999999;}
+.list .listLeft .contantText .keyword span:nth-child(2){ float: right;}
+.list .listLeft .contantText .switch { line-height: 40px; border-bottom: 1px solid #e5e5e5;}
+.list .listLeft .contantText .switch div:nth-child(1){ float: left;}
+.list .listLeft .contantText .switch div:nth-child(2){ float: right;}
+.list .listLeft .contantText .recommend h3{ font-weight: normal; color: #9d6e07; line-height: 35px; text-indent: 0;}
+.list .listLeft .contantText .recommend li{ float: left; width: 33.33%;}
+.list .listLeft .contantText .recommend li i{ color: #ad7c43; margin-right: 3px;}
+
+/*contant 详细页样式 end*/
+
+/*-------------------------------------------------------------------------------------*/
+/*subjectCont 列表页样式 start*/
+.subjectCont{ padding: 30px 0px;}
+.subjectCont dl{ float: left; margin: 0px 19px 30px 20px; text-align: center;}
+.subjectCont dl dt{ width: 200px; padding: 4px; box-shadow: 0 0 5px 2px #e1e1e1; }
+.subjectCont dl dd{ margin-top: 10px;}
+
+/*subjectCont 列表页样式 end*/
+
+/*-------------------------------------------------------------------------------------*/
+/*friendlinkCont 内容页样式 start*/
+.friendlinkCont{ padding: 30px 20px;}
+.friendlinkCont .huoban{ margin-bottom: 30px;}
+.friendlinkCont ul{ border-top: 1px solid #e5e5e5; margin-top: -1px; padding-top: 13px;}
+.friendlinkCont h3{ position: relative; line-height: 45px; text-indent: 1em;}
+.friendlinkCont h3 i{ position: absolute; bottom: 0; left: 0; width: 89px; height: 7px;background: url(../img/tubiao.png) -31px -291px no-repeat; }
+.friendlinkCont .huoban li{ float:left; margin: 13px 14px; width: 130px; padding: 3px; border-radius: 3px; box-shadow: 0 0 5px 2px #e6e6e6;}
+.friendlinkCont .link ul{line-height: 25px;} 
+.friendlinkCont .link li{ float: left; margin: 0 16px; } 
+.friendlinkCont .link ul i{ display: block; float: left;}
+
+/*friendlinkCont 内容页样式 end*/
+
+/*-------------------------------------------------------------------------------------*/
+/*aboutCont 关于我们页样式 start*/
+.aboutCont{ padding: 30px 20px;}
+.aboutCont dl dt{ float: left; width: 360px; height: 270px; margin-right: 10px; margin-bottom: 10px;}
+.aboutCont dl dt img{ width: 100%; }
+.aboutCont dl dd{ line-height: 2em; font-size: 14px;}
+.aboutCont dl dd p{ text-indent: 2em;}
+.aboutCont dl dd span{ color: #9d6e07; font-weight: bold; margin-top: 5px;}
+
+/*aboutCont 关于我们页样式 end*/
+
+/*-------------------------------------------------------------------------------------*/
+/*teamCont 专家团队页样式 start*/
+.teamCont{ padding: 30px 15px;}
+.teamCont dl{ float: left; width: 126px; border: 2px solid #eeefef; margin:15px 6px ; text-align: center;}
+.teamCont dl dt{ padding: 3px;}
+.teamCont dl dt img{ width: 100%;}
+.teamCont dl dd{ line-height: 35px;}
+
+/*teamCont 专家团队页样式 end*/
+
+/*-------------------------------------------------------------------------------------*/
+/*contactCont 联系我们页样式 start*/
+.contactCont .site{ margin: 15px; border: 1px solid #c9c9c9;}
+.contactCont>ul li{ float: left; width: 310px; padding: 0px 15px 10px 15px; margin:15px ; background: #f5f5f5; line-height: 20px;}
+.contactCont>ul li p{ margin-top: 5px;}
+.contactCont>ul li h3{ font-weight: normal; border-bottom: 1px solid #ebe4d4;  line-height: 34px;}
+.contactCont>ul li h3 i{ margin-top: 10px; display:block; float: left; margin-right: 5px; width: 15px; height: 17px;background: url(../img/tubiao.png) -130px -298px no-repeat; }
+
+/*contactCont 联系我们页样式 end*/
+
+
+/*右侧栏目*/
+.list .listRight{float: right; width:242px;}
+.list .listRight .order{ border: 1px solid #e5e5e5; }
+.list .listRight .mar{ padding: 10px 10px 0 10px; background: #ffffff; overflow:hidden;}
+.list .listRight .mar li{ width: 219px;}
+.list .listRight .mar li img{ width: 100%;}
+
+/*精彩活动*/
+.list .listRight .listRightTab{border: 1px solid #e5e5e5; margin-top: 15px;}
+.list .listRight .listRightTab>ul{ margin-top: 1px;}
+.list .listRight .listRightTab>ul li{ float: left; width: 50%; line-height: 30px; background: #e2e2e2; text-align: center; cursor:pointer;}
+.list .listRight .listRightTab>ul .ac{ color: #9d6e07; background: #ffffff;}
+.list .listRight .listRightTab .tabCont{ padding: 12px;}
+.list .listRight .listRightTab .tabCont i{ color: #ad7c43; margin-right: 3px;}
+.list .listRight .listRightTab .tabCont li{ line-height: 25px;}
+.list .listRight .listRightTab .tabCont .tabItem{ display:none;}
+
+/*精彩专题*/
+.list .listRight .subject{ border: 1px solid #e5e5e5; margin-top: 15px;}
+.list .listRight .subject .subTitle{ margin-top: 1px; background: #e2e2e2; line-height: 30px; text-align: center;}
+.list .listRight .subject .subTitle h3{ width: 100px; background: #ffffff; font-weight: normal; color: #9d6e07; }
+.list .listRight .subject .subCont{position: relative; margin:26px 16px;}
+.list .listRight .subject .box{position: relative; width:208px; height:226px; overflow:hidden; }
+.list .listRight .subject .box ul{ position:absolute; top:0; transition:all 0.8s;}
+.list .listRight .subject ul li{ margin: 10px 0; height:103px;}
+
+.list .listRight .subject .subCont .prve{position: absolute; left: 100px;width: 22px; height: 13px; cursor: pointer;  top: -20px; background: url(../img/tubiao.png) -80px -305px no-repeat; }
+.list .listRight .subject .subCont .next{position: absolute; left: 100px;width: 22px; height: 13px; cursor: pointer; bottom: -20px; background: url(../img/tubiao.png) -52px -305px no-repeat; }
+
+/*list 列表页样式  end*/
+
+
+

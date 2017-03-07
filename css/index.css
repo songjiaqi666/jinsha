@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*首页样式 start*/
+
+
+/*project 项目样式*/
+.project{ position: relative; margin-top: 21px;  padding-bottom: 10px; border-bottom: 1px solid #e3cb94;}
+.project .box{ position:relative;width: 950px; height:78px; margin: 0 auto; overflow:hidden; }
+.project ul{ position:absolute; left:0px;  white-space:nowrap; transition:all 0.8s;}
+.project li{ float: left; width: 53px; margin: 0 10px; text-align: center; line-height: 25px; color: #674708; cursor:pointer;}
+.project li i{ display: block; width: 53px; height: 53px; }
+.project li:nth-child(1) i{background: url(../img/tubiao.png) -5px -5px no-repeat;}
+.project li:nth-child(2) i{background: url(../img/tubiao.png) -65px -5px no-repeat;}
+.project li:nth-child(3) i{background: url(../img/tubiao.png) -124px -5px no-repeat;}
+.project li:nth-child(4) i{background: url(../img/tubiao.png) -184px -5px no-repeat;}
+.project li:nth-child(5) i{background: url(../img/tubiao.png) -243px -5px no-repeat;}
+.project li:nth-child(6) i{background: url(../img/tubiao.png) -5px -63px no-repeat;}
+.project li:nth-child(7) i{background: url(../img/tubiao.png) -65px -63px no-repeat;}
+.project li:nth-child(8) i{background: url(../img/tubiao.png) -124px -63px no-repeat;}
+.project li:nth-child(9) i{background: url(../img/tubiao.png) -184px -63px no-repeat;}
+.project li:nth-child(10) i{background: url(../img/tubiao.png) -243px -63px no-repeat;}
+.project li:nth-child(11) i{background: url(../img/tubiao.png) -5px -121px no-repeat;}
+.project li:nth-child(12) i{background: url(../img/tubiao.png) -65px -121px no-repeat;}
+.project li:nth-child(13) i{background: url(../img/tubiao.png) -124px -121px no-repeat;}
+.project li:nth-child(14) i{background: url(../img/tubiao.png) -65px -5px no-repeat;}
+.project li:nth-child(15) i{background: url(../img/tubiao.png) -124px -5px no-repeat;}
+.project li:nth-child(16) i{background: url(../img/tubiao.png) -184px -5px no-repeat;}
+.project li:nth-child(17) i{background: url(../img/tubiao.png) -243px -5px no-repeat;}
+
+.project .prve{position: absolute; top: 0px; width: 17px; height: 53px; overflow: hidden; cursor: pointer; left: 0px; background: url(../img/tubiao.png) -185px -121px no-repeat;}
+.project .next{position: absolute; top: 0px; width: 17px; height: 53px; overflow: hidden; cursor: pointer; right: 0px; background: url(../img/tubiao.png) -220px -121px no-repeat;}
+
+/*王牌项目 新闻动态 在线咨询*/
+.joker{ float: left; width: 244px; margin-right: 15px;}
+.joker .jokerTitle{ width: 244px; height: 41px; overflow: hidden;background: url(../img/tubiao.png) -5px -223px no-repeat;}
+.joker ul{ background-color: #f9f9f9; border: 1px solid #e5e5e5; border-bottom: 0;}
+.joker ul li{border-bottom: 1px solid #e5e5e5; height: 33px; line-height: 33px; text-align: center; cursor: pointer;}
+.joker ul li img{ display: none;}
+.joker ul .ac img{ display: block;}
+.joker ul .ac{ height: 133px; color: #9d6a35;}
+
+.news{ position: relative; float: left; padding: 15px; width: 458px; height:450px; border: 1px solid #e5e5e5; background: -webkit-linear-gradient(#f8f8f8, #ffffff); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#f8f8f8, #ffffff); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#f8f8f8, #ffffff); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#f8f8f8, #ffffff); /* 标准的语法（必须放在最后） */}
+.news .hot-icon{ position: absolute; left: 12px; top: 18px; display: block; width: 45px; height: 16px;background: url(../img/tubiao.png) -249px -140px no-repeat;}
+.news .newsTitle h3{ text-align: center; font-size: 14px;}
+.news .newsTitle p{ margin-top: 17px; text-indent: 2em; line-height: 1.6em;}
+.news .newsTitle a{ color: #dd2f30;}
+.news>ul{ border-top: 1px dotted #d6d6d6; margin-top: 12px; padding-top: 5px;  }
+.news>ul li{ float: left; width: 50%; line-height: 25px;}
+.news .tab>ul{padding-left: 5px;  margin-top: 15px; border-bottom: 1px solid #eeeeee;margin-bottom: 10px;}
+.news .tab>ul li{ float: left; width: 93px; height: 28px; line-height: 28px; text-align: center;font-weight: bold; cursor: pointer;}
+.news .tab>ul .ac{ background-color: #e2e2e2; color: #9d6e07; border-radius: 5px 5px 0 0; }
+.news .tab .tabItem { display:none;}
+.news .tab .tabItem li{ position: relative; line-height: 30px; }
+.news .tab .tabItem li span{ position:absolute; top: 0; right: 0; line-height: 30px; color:#666666;}
+.news ul i{ color: #ad7c43; margin-right: 3px;}
+
+/*在线预约*/
+.order{ float: right;}
+
+/*金沙成功案例展示*/
+.case{ border: 1px solid #d3c08e; margin-top: 15px;}
+.case .caseTitle{ width: 1000px; height: 32px; margin-top: 5px; background: url(../img/caseTitle_bg.jpg) repeat;}
+.case .caseTitle i{ margin: 0 auto; display: block;width: 265px; height: 43px;background: url(../img/tubiao.png) -5px -337px no-repeat;}
+
+.case .caseCont{ margin: 12px 4px;}
+.case .caseCont li{ position: relative;  float: left; margin: 0 4px; color: #fff; cursor:pointer; }
+.case .caseCont li .up{position: relative;}
+.case .caseCont li .up p{ position: absolute; bottom: 0; left: 0; width: 218px;  height: 29px; line-height: 29px; background-color: rgba(0,0,0,0.5); padding: 0 10px; }
+.case .caseCont li .up p span:nth-child(1){ float: left;}
+.case .caseCont li .up p span:nth-child(2){ float: right;}
+.case .caseCont li .hover{ position: absolute; top: 0; left: 0;background-color: rgba(0,0,0,0.5); width:222px; height: 341px; padding: 8px; line-height: 1.6em; opacity:0; transition:all 0.8s;}
+.case .caseCont li .hover h4{ margin-top: 15px;}
+.case .caseCont li .hover .pic{ margin-top: 18px;}
+.case .caseCont li .hover a{ display: block; margin: 8px auto; color: #efcf91; text-align: center; line-height: 30px; font-size: 14px;}
+
+/*金沙项目中心*/
+.centre{ margin-top: 15px; border: 1px solid #e5e5e5; background: -webkit-linear-gradient(#f8f8f8, #ffffff); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#f8f8f8, #ffffff); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#f8f8f8, #ffffff); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#f8f8f8, #ffffff); /* 标准的语法（必须放在最后） */}
+.centre .title{line-height: 42px;}
+.centre .title ul{ float: right; width: 530px; height: 42px;}
+.centre .title ul li{ cursor: pointer; position: relative; float: left; margin: 0 15px; font-size: 14px;}
+.centre .title ul .ac{ font-weight: bold;}
+.centre .title ul .ac i{ margin: 0 auto; margin-top: -7px; display: block; width: 14px; height: 7px; overflow: hidden;background: url(../img/tubiao.png) -13px -290px no-repeat;}
+.centre .tabCont .tabItem { display:none;}
+.centre .tabCont .contLeft{ float: left; width: 236px; padding:15px;}
+.centre .tabCont .contCentre{ float: left; padding: 15px; padding-left: 0; width: 460px; border-right:1px solid #e5e5e5; height: 300px; }
+.centre .tabCont .contCentre h3{ line-height: 30px; text-align: center;}
+.centre .tabCont .contCentre p{ width: 100%; line-height:1.6em; text-indent: 2em;}
+.centre .tabCont .contCentre p a{color:#dd2f30 ;}
+.centre .tabCont .contCentre .data{ border-top: 1px dotted #d6d6d6; margin-top: 12px; padding-top: 5px; }
+.centre .tabCont .contCentre .data li{ float: left; width: 50%; line-height: 25px;}
+.centre .tabCont .contCentre .data i{ color: #ad7c43; margin-right: 3px;}
+.centre .tabCont .contCentre .pic { margin-top: 12px;}
+.centre .tabCont .contCentre .pic li{ float: left; width: 140px; padding: 2px; background: #ffffff; box-shadow: 0 0 5px 2px #e2e2e2;}
+.centre .tabCont .contCentre .pic li:nth-child(1){ margin-right: 10px; }
+.centre .tabCont .contCentre .pic li:nth-child(2){ margin-right: 10px; }
+.centre .tabCont .centreRight{ float: right; width: 230px; padding: 0px 14px;}
+.centre .tabCont .centreRight .title{ line-height: 35px;}
+.centre .tabCont .centreRight h3{ float: left; color: #9d6e07; font-weight: normal;}
+.centre .tabCont .centreRight ul{ margin-top: 10px;}
+.centre .tabCont .centreRight ul li{ border-bottom: 1px dotted #d5d5d5 ; margin-top: 10px; line-height: 20px; padding-bottom: 5px;}
+.centre .tabCont .centreRight ul li i{ width: 14px; height: 14px; display: inline-block; margin-right: 9px; line-height: 14px; text-align: center;color: #ffffff; border-radius: 3px;}
+.centre .tabCont .centreRight ul li .q{ background-color:#8f8f8f ;}
+.centre .tabCont .centreRight ul li .a{ background-color:#9d6a35 ;}
+
+/*金沙精彩专题*/
+.subject{margin-top: 15px; border: 1px solid #e5e5e5; background: -webkit-linear-gradient(#f8f8f8, #ffffff); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#f8f8f8, #ffffff); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#f8f8f8, #ffffff); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#f8f8f8, #ffffff); /* 标准的语法（必须放在最后） */}
+.subject .title{line-height: 42px;}
+.subject .title .more{ padding-right: 15px;}
+.subject .subCont{ position: relative; margin: 15px;}
+.subject .subCont .box{  position:relative; width:968px; height:103px; overflow:hidden; }
+.subject .subCont .box ul{ position:absolute; left:0px;  white-space:nowrap; transition:all 0.8s;}
+.subject .subCont li{float: left; display:inline-block; margin: 0 10px; width: 222px;}
+.subject .subCont .prve{cursor: pointer;position: absolute;top: 48px;width: 13px; height: 22px; left:-7px; background: url(../img/tubiao.png) -13px -302px no-repeat; }
+.subject .subCont .next{ cursor: pointer;position: absolute;top: 48px;width: 13px; height: 22px; right:-7px; background: url(../img/tubiao.png) -33px -302px no-repeat; }
+
+/*friendlink*/
+.friendlink{margin-top: 15px; border: 1px solid #e5e5e5; background: -webkit-linear-gradient(#f8f8f8, #ffffff); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#f8f8f8, #ffffff); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#f8f8f8, #ffffff); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#f8f8f8, #ffffff); /* 标准的语法（必须放在最后） */}
+.friendlink .title{line-height: 42px; font-size: 14px; padding-right: 15px;}  
+.friendlink .tabList { float: left;}
+.friendlink .tabList .ac{ font-weight: bold;}
+.friendlink .tabList .ac i{ display: block; margin-left: -16px; width: 89px; height: 7px;background: url(../img/tubiao.png) -31px -291px no-repeat;}
+.friendlink .tabList li{ float: left;  padding:0 16px; cursor: pointer;}
+.friendlink .tabItem { display:none; padding:20px 8px; border-top: 1px solid #e5e5e5; margin-top: -1px;}
+.friendlink .tabItem dl{ float: left; width: 166px; margin:0 15px;}
+.friendlink .tabItem dl dt{ width: 160px; padding: 3px; border-radius: 3px; box-shadow: 0 0 5px 2px #e6e6e6;}
+.friendlink .tabItem dl dd{ line-height: 20px; text-align: center;}
+.friendlink .huoban li{ float:left; margin: 8px 14px; width: 130px; padding: 3px; border-radius: 3px; box-shadow: 0 0 5px 2px #e6e6e6;}
+.friendlink .link{ line-height: 25px;}
+.friendlink .link li{ float: left; margin: 0 16px;}
+.friendlink .link i{ display: block; float: left;}
+
+/*首页样式 end*/
+
